@@ -38,6 +38,12 @@ This project uses handcrafted feature extraction with a PyTorch-based MLP for cl
     ```bash
     python start.py
     ```
+## OR for Simple Running 
+You can **simply download the project** and run:
+
+```bash
+python start.py
+```
         
 ## Output Samples
 ![Bear](images/bear.png)
