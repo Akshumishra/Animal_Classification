@@ -6,9 +6,9 @@ This project uses handcrafted feature extraction with a PyTorch-based MLP for cl
 
 ## Workflow
 1. `make.py`: Downloads images from Bing to create your dataset automatically.
-2. **feature_extraction.py**: Extracts features from your dataset and saves them.
-3. **model_train.py**: Loads features, trains an MLP, shows accuracy, classification report, and confusion matrix, and saves the trained model.
-4. **start.py**: Launches a Gradio interface to upload images and get predictions.
+2. `feature_extraction.py`: Extracts features from your dataset and saves them.
+3. `model_train.py`: Loads features, trains an MLP, shows accuracy, classification report, and confusion matrix, and saves the trained model.
+4. `start.py`: Launches a Gradio interface to upload images and get predictions.
 
 ## Gradio UI Button Functions
 - **Upload Image:** Upload your test image.
